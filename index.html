@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz De Musica</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz Musical</h1>
+        <p>Teste seus conhecimentos em música e veja quantos pontos você consegue fazer!</p>
+    </header>
+    <main>
+        <!--Introdução-->
+        <section>
+            <h2>Sobre o quiz</h2>
+            <p><strong>Este quiz</strong> foi desenvolvido para testar seu conhecimento em <em>música</em>, de todos os genêros </p>
+            <p>Você vai encontrar diversos tipos de perguntas, <abbr title="Com opções de a até c">multiplescolha</abbr>, texto, pergunta de datas. <br> Desafie-se</p>
+            <p>Você tambem pode encontrar perguntas da vida pessoal de alguns artistas mais famosos na midia</p>
+        </section>
+        <!--Multiplaescolha Pergunta 1-->
+        <section>
+            <h2>Pergunta 1: Qual banda britânica lançou o álbum "Abbey Road" em 1969? </h2>
+            <form>
+                <input type="radio" value="A) The Rolling Stones" id="p1a" name="pergunta1">
+                <label for="p1a">A) The Rolling Stones</label><br>
+                <input type="radio" value="B) Pink Floyd" id="p1b" name="pergunta1">
+                <label for="p1b">B) Pink Floyd</label><br>
+                <input type="radio" value="C) The Beatles" id="p1c" name="pergunta1">
+                <label for="p1c">C) The Beatles</label><br>
+            </form>
+
+        </section>
+        <!--Texto Pergunta 2-->
+        <section>
+            <h2>Pergunta 2:Qual é o nome do famoso festival de música realizado no deserto da Califórnia, Estados Unidos? </h2>
+            <form>
+            <input type="text" id="p2" name="Pergunta2" placeholder="Digite aqui">
+            </form>
+        </section>
+        <!--Perguna 3: senha-->
+        <section>
+            <h2>Quem é conhecido como o "Rei do Pop"?</h2>
+            <form>
+                <input type="password" name="pergunta3" id="p3" placeholder="Digite">
+            </form>
+        </section>
+        <!--PErgunta 4: data-->
+        <section>
+            <h2>Qual ano é o nome de um album da Taylor Swift?</h2>
+            <form>
+                <input type="date" name="pergunta4" id="p4">
+            </form>
+        </section>
+        <!--Pergunta 5: Seleçao de varios-->
+        <section>
+            <h2>Qual desses artistas é famoso por fazer parte de uma boy band? (2 opçoes certas)</h2>
+            <form>
+                <input type="checkbox" name="pergunta5" id="p5" value="Justin Timberlake">
+                <label for="p5a">Justin Timberlake</label>
+                <input type="checkbox" name="pergunta5" id="p5" value="Harry Styles">
+                <label for="p5b">Harry Styles</label>
+                <input type="checkbox" name="pergunta5" id="p5" value="Ed Sheeran">
+                <label for="p5c">Ed Sheeran</label>
+                <input type="checkbox" name="pergunta5" id="p5" value="Bruno Mars">
+                <label for="p5d">Bruno Mars</label>
+            </form>
+        </section>
+        <!--Pergunta 6:upload-->
+        <section>
+            <h2>Faça um upload de um arquivo JPEG de um artista que você goste</h2>
+            <form>
+                <input type="file" id="p6" value="pergunta6">
+            </form>
+        </section>
+        <!--Pergunta 7 - menu updown-->
+        <section>
+            <h2>Qual músico é conhecido por criar a banda Nirvana? </h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="Kurt Cobain">Kurt Cobain</option>
+                    <option value="Dave Grohl">Dave Grohl</option>
+                    <option value="Eddie Vedder">Eddie Vedder</option>
+                    <option value="Chris Cornell">Chris Cornell</option>
+                </select>
+            </form>
+        </section>
+        <!--Pergunta 8 de imagem-->
+        <section>
+            <h2>De quem é esse album?</h2>
+            <figure><img src="https://www.sleek-mag.com/wp-content/uploads/2016/08/AlbumCovers_Blonde-1200x1200.jpg" alt="ALBUM BLOND">
+                <figcaption>ALBÚM BLOND</figcaption>
+            </figure>
+            <input type="text" id="p5" name="pergunta8" placeholder="Digite ">
+        </section>
+        <!--tabela-->
+        <section>
+            <h2>TABELA DE PONTUAÇÂO</h2>
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Pontuaçao</th>
+                        <th>Dica</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista,lembra muito meu começo</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>Pode melhorar</td>
+                    </tr>
+                    <tr>
+                        <td>5-7</td>
+                        <td>Ai sim meu musico</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Você é o Pedro?</td>
+                    </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Thanks</td>
+                </tr>
+            </tfoot>
+            </table>
+        </section>
+        <!--Respostas-->
+        <section>
+            <h2>Respostas</h2>
+            <details>
+                <summary>Clique para ver as respostas</summary>
+            <ol>
+                <li> The Beatles</li>
+                <li> Coachella</li>
+                <li> Michael Jackson</li>
+                <li> 1989</li>
+                <li> Justin Timbarlake e Harry Stlyes</li>
+                <li> Bom gosto musical</li>
+                <li> Kurt Cobain</li>
+                <li> Frank Ocean</li>
+            </ol>
+        </details>
+        </section>
+        <!--Formulario Feedback-->
+        <section>
+            <h2>Feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Infos</legend>
+                <label for="nome">Nome</label> <br>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" name="email"> <br> <br>
+                <label for="coment">Comentário:</label> <br>
+                <textarea id="coment" name="coment" rows="4" cols="50" placeholder="Digite"></textarea><br>
+                <button onclick="alert('Feedback Enviado')">Enviar</button>
+            </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Quiz musical todos os direitos reservados.</p>
+        <p>By Pedro Programador</p>
+        <p>PAra conhecer sobre mim.
+            <a href="/sobremim.html" target="_blank">Clique aqui</a>
+        </p>
+    </footer>
+</body>
+</html>
